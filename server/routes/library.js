@@ -8,8 +8,6 @@ router.get('/', function(req, res, next) {
   var grump = req.params.grump;
   
   Package.find({}, function (err, result) {
-    console.log("Hi!");
-    // console.log(JSON.stringify(result));
     if (err) { console.log(err); }
     if (result.length === 0) {
       res.sendStatus(404);
