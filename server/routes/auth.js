@@ -42,7 +42,7 @@ router.get('/signin', function(req, res, next) {
       //save the user to the database and send back a token
       user.save(function(err){
         if(err) { res.send(err); }
-        else res.redirect('/#/access_token=' + token);
+        else res.redirect('/#!/access_token=' + token);
       });
     });
   });
