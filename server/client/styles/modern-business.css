@@ -86,8 +86,18 @@ body a:focus {
   color: #458588;
 }
 
+button.navbar-toggle {
+    background-color: #504945;
+    border-color: #504945;
+}
+
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #ebdbb2;
+  margin-bottom: 5px;
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
 }
 
 #grumpOwner {
